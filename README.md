@@ -1,2 +1,4 @@
 # Apple-Calculator-App
-HTML CSS JS
+HTML
+CSS
+JS
