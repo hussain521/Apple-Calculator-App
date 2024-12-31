@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Apple Calculator App</title>
+  </head>
+  <body>
+    <section class="home">
+      <img src="img/،˓ ִ☆៹·˳ʾ OVERLAY 𝄪 ⋆.jpeg" alt="">
+      <div class="container">
+        <form action="" class=" ">
+          <div class="text">
+            <input type="text" name="text" id="" class="w-100 text" />
+          </div>
+          <input
+            type="button"
+            value="AC"
+            onclick="text.value =  ' ' "
+            class="two"
+          />
+          <input
+            type="button"
+            value="+/-"
+            onclick="text.value += '-' "
+            class="two"
+          />
+          <input
+            type="button"
+            value="%"
+            onclick="text.value += ' ' "
+            class="two"
+          />
+          <input
+            type="button"
+            value="/"
+            onclick="text.value += '/' "
+            class="one"
+          />
+          <input type="button" value="7" onclick="text.value += '7' " />
+          <input type="button" value="8" onclick="text.value += '8' " />
+          <input type="button" value="9" onclick="text.value += '9' " />
+          <input
+            type="button"
+            value="*"
+            onclick="text.value += '*' "
+            class="one"
+          />
+          <input type="button" value="4" onclick="text.value += '4' " />
+          <input type="button" value="5" onclick="text.value += '5' " />
+          <input type="button" value="6" onclick="text.value += '6' " />
+          <input
+            type="button"
+            value="-"
+            onclick="text.value += '-' "
+            class="one"
+          />
+          <input type="button" value="1" onclick="text.value += '1'" />
+          <input type="button" value="2" onclick="text.value += '2'" />
+          <input type="button" value="3" onclick="text.value += '3'" />
+          <input
+            type="button"
+            value="+"
+            onclick="text.value += '+'"
+            class="one"
+          />
+          <input
+            type="button"
+            value="0"
+            onclick="text.value += '0'"
+            class="zero"
+          />
+          <!-- <input type="button" value="0"   onclick="text.value += '/'" > -->
+          <input type="button" value="." onclick="text.value += '.'" />
+          <input
+            type="button"
+            value="="
+            class="one"
+            onclick="text.value = eval(text.value) "
+          />
+        </form>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
